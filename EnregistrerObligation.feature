@@ -5,13 +5,13 @@ Je veux enregistrer les différentes obligations avec leurs maturités, taux et 
 Ceci afin de développer la vision que j'ai de ma position.
 
 Scenario outline : Calcul automatique du rendement à maturité
-Given l'enregistrement d'une obligation avec maturité, taux, nominal
+Given l'enregistrement d'une obligation avec <maturite1>, <taux1>, <nominal1>
 When l'utilisateur la valide
-Then le rendement est calculé
+Then le <rendement1> est calculé
 
 Examples: 
-| obligation1  | maturité1 | taux1 | nominal1 |
-| obligationSG | 8 ans     | 0.3   | 1500     |
+| obligation1  | maturite1 | taux1 | nominal1 | rendement1 |
+| obligationSG | 8 ans     | 0.3   | 1500     | 12.5       |
 
 
 Scenario outline : Refus d'une obligation à maturité, taux ou nominal négatif
