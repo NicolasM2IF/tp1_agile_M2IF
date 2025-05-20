@@ -17,7 +17,7 @@ Nous pouvons la compiler et l’instancier même sans schéma clair de sa consti
 Commençons à mieux définir notre classe.
 ![image](https://github.com/user-attachments/assets/534a89ae-690a-403b-b38e-8e0276a81aa7)
 
- ![image](https://github.com/user-attachments/assets/4850f5de-96b5-446c-a125-55b12a42917a)
+
 
 
  
