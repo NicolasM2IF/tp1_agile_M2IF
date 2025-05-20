@@ -4,15 +4,15 @@ Je veux après avoir enregistré les différentes obligations avec leurs maturit
 Ceci afin de développer mes perspectives d'investissements.
 
 Scenario outline : Création d'un portefeuille avec plusieurs obligations
-Given des obligations
+Given des obligations <obligation1> et <obligation2>
 When l'utilisateur la valide
-Then le système enregistre le portefeuille
+Then le système enregistre le portefeuille <portefeuille1> avec <obligation1> et <obligation2>
 
 Examples: 
-| obligation1  | maturité1 | taux1 | nominal1 |
-| obligationSG | 8 ans     | 0.3   | 1500     |
-| obligation2  | maturité2 | taux2 | nominal2 |
-| obligationBNP| 7 ans     | 0.2   | 2000     |
+| obligation1  | 
+| obligationSG | 
+| obligation2  | 
+| obligationBNP| 
 
 | portefeuille1  | obligation1 | obligation2  | 
 | myportefeuille | obligationSG| obligationBNP|
@@ -20,17 +20,16 @@ Examples:
 
 
 Scenario outline : Calcul de la position à un certain instant 
-Given un portefeuille
-And une date
+Given un portefeuille <portefeuille1> et une date <date1>
 When l'utilisateur la valide
-Then la position en cette date est calculée
+Then la position <position> en cette date est calculée
 
 
 
 
 Examples: 
-| portefeuille1  | date1 |
-| myportefeuille | 3     |
+| portefeuille1  | date1 | position |
+| myportefeuille | 3     |          |
 
 
 
