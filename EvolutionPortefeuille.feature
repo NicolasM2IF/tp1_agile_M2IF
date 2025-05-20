@@ -4,7 +4,7 @@ Je veux après avoir enregistré les différentes obligations avec leurs maturit
 Ceci afin de développer mes perspectives d'investissements.
 
 Scenario outline : Création d'un portefeuille avec plusieurs obligations
-Given l'enregistrement d'un portefeuille et des obligations
+Given des obligations
 When l'utilisateur la valide
 Then le système enregistre le portefeuille
 
@@ -20,7 +20,8 @@ Examples:
 
 
 Scenario outline : Calcul de la position à un certain instant 
-Given l'enregistrement d'un portefeuille et d'une date
+Given un portefeuille
+And une date
 When l'utilisateur la valide
 Then la position en cette date est calculée
 
