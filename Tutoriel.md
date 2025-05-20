@@ -55,5 +55,23 @@ Nous pouvons maintenant  créer une nouvelle méthode de test sur la méthode Ca
 
 Maintenant nous pouvons sauvegarder nos instances dans la fixture de la classe test.
 
+![image](https://github.com/user-attachments/assets/bc847f0d-5349-484c-bf56-6f58c55ffff4)
+
+
 Nous allons créer une classe PortefeuilleTemps, constituée d’une collection de portefeuille. Tous contiennent la même obligation mais à des instants différents.
+
+![image](https://github.com/user-attachments/assets/38b054db-7e4d-4b05-94af-97c5f8550c44)
+
+Accompagnée de sa classe de test : 
+
+![image](https://github.com/user-attachments/assets/39f4cfde-ad4b-4d19-aae0-d917ab3b82c2)
+
+![image](https://github.com/user-attachments/assets/e778b435-771c-4921-a4cf-2a5ed146606b)
+
+
+Pour finir la classe Position, composé d'une collection de PortefeuilleTemps
+
+![image](https://github.com/user-attachments/assets/920ffb4e-05ef-4cba-9279-9489df580400)
+
+![image](https://github.com/user-attachments/assets/719b2218-fbbb-48a6-85b4-9212cc8df57f)
 
