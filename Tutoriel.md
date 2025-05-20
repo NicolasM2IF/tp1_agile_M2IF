@@ -32,11 +32,26 @@ Instancions notre classe et essayons nos méthodes GetTaux. getNominal et getMat
 
 Maintenant pour notre premier test nous créons une classe test, nous la compilons, nous définissons notre première méthode de test pour la méthode GetTaux.
 
-Maintenant nous créons une nouvelle classe Portefeuille, qui va contenir une obligation à un instant t.
+![image](https://github.com/user-attachments/assets/0bc4235b-a376-4237-94cb-a6823fb2be0f)
 
+![image](https://github.com/user-attachments/assets/3d1cc12e-2745-4654-ab37-7181751f6820)
+
+
+
+Maintenant nous créons une nouvelle classe Portefeuille, qui va contenir une obligation à un instant t.
 Enfin, nous utilisons nos méthodes de la classe Obligation afin de calculer le rendement de notre portefeuille.
 
+![image](https://github.com/user-attachments/assets/007c633d-7b39-4ab3-b9c8-23d0d368305a)
+
+
+
+
 Nous pouvons maintenant  créer une nouvelle méthode de test sur la méthode CalculRendement de la classe Portefeuille. 
+
+![image](https://github.com/user-attachments/assets/0ca2afeb-f8b3-4e04-a3ee-573f88af3843)
+
+
+
 
 Maintenant nous pouvons sauvegarder nos instances dans la fixture de la classe test.
 
