@@ -25,7 +25,10 @@ Commençons à mieux définir notre classe.
 ![image](https://github.com/user-attachments/assets/ed01d1c5-3714-4434-a52a-31a4867ded7b)
 
  
-Instancions notre classe et essayons notre méthode GetTaux().
+Instancions notre classe et essayons nos méthodes GetTaux. getNominal et getMaturite
+
+![image](https://github.com/user-attachments/assets/f6dfad34-8155-4d7e-89c6-64867b908f26)
+
 
 Maintenant pour notre premier test nous créons une classe test, nous la compilons, nous définissons notre première méthode de test pour la méthode GetTaux.
 
