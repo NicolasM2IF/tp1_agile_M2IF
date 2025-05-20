@@ -1,4 +1,4 @@
-Feature : OBL_0001 Enregistrer les obligations
+Feature : US_0001 Enregistrer les obligations
 
 En tant que financier
 Je veux enregistrer les différentes obligations avec leurs maturités, taux et nominals respectifs.
