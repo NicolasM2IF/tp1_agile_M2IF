@@ -15,7 +15,7 @@ Examples:
 
 
 Scenario outline : Refus d'une obligation à maturité, taux ou nominal négatif
-Given l'enregistrement d'une obligation avec maturité, taux, nominal
+Given l'enregistrement d'une obligation avec <maturité1>, <taux1>, <nominal1>
 When l'utilisateur la valide
 Then le système la refuse
 
