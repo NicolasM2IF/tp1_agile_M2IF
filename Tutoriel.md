@@ -2,7 +2,11 @@
 
 ## Courte histoire pour une mise en jambe efficace
 
-Pierre Chartier, financier expert sur le marché des obligations, en avait marre de jongler avec ses tableurs excel chargés de formules et illisibles. Un soir, après un énième café, il se dit : “Stop, j'en peux plus, il me faut un truc qui calcul tout, tout le temps et à ma place !”. Il se rendit sur internet, à la recherche d'un tutoriel qui le ménera vers un avenir radieux.
+Pierre Chartier, financier expert sur le marché des obligations, en avait marre de jongler avec ses tableurs excel chargés de formules et illisibles. Un soir, après un énième café, il se dit : “Stop, j'en peux plus, il me faut un truc qui calcul tout, tout le temps et à ma place !”. Il se rendit sur internet, à la recherche d'un tutoriel qui le ménera vers un avenir radieux. "Très bien, il me suffit d'apprendre à coder, ça ne devrait pas être si difficile" pensa t-il à haute voix.
+"Mais comment m'assurer que mon code fonctionne, je pourrais perdre des millions d'euros et finir par vendre des paninis à chateaurou" s'inquiéta t-il.
+Après des heures de recherches, au bord de l'abandon, il découvrit une vidéo youtube lui introduisant le principe des tests Junit.
+"Eureka !" s'écriat-il.
+Après une bonne nuit de sommeil, une tasse de café à la main, il s'attela à sa formation.
 
 ## Le tutoriel avec BlueJ
 Nous commençons par créer une classe obligation qui représente un actif financier possédant une maturité, un nominal et un taux.
