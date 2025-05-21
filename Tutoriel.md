@@ -87,9 +87,24 @@ Il s'agit ici d'implémenter nos classes de BlueJ en Python, pour cela nous allo
 
 
 
-Dorénavant nous allons effectuer des tests Behavior-Driven Development 
+Dorénavant nous allons effectuer des tests fonctionnels dits de Behavior-Driven Development 
 
 Pour cela nous posons une première feature, enregistrer des obligations.
 Nous y voyons deux scénarios, le premier est le calcul automatique du rendement d'une obligation à maturité, l'autre est une vérification de la validité e l'obligation.
 
 ![image](https://github.com/user-attachments/assets/2824c19f-d025-4505-bf48-223ab54025db)
+
+
+Il s'agit de faire passer à notre solution un test d'acceptance. Développons un step programme 
+
+![image](https://github.com/user-attachments/assets/29cbf304-9558-47c7-b30d-03d63cfeeed0)
+
+![image](https://github.com/user-attachments/assets/3f8b5767-0e04-4c4b-bded-300b80fac603)
+
+
+Il nous suffit d'exécuter notre feature, avec un peu de chance tout sera au vert :)
+
+![image](https://github.com/user-attachments/assets/153048e6-eecd-459b-94a3-06b5a04542b8)
+
+On est bon !
+
