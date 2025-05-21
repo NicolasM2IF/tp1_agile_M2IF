@@ -71,7 +71,20 @@ Accompagnée de sa classe de test :
 
 Pour finir la classe Position, composé d'une collection de PortefeuilleTemps
 
+
+
+
 ![image](https://github.com/user-attachments/assets/920ffb4e-05ef-4cba-9279-9489df580400)
 
 ![image](https://github.com/user-attachments/assets/719b2218-fbbb-48a6-85b4-9212cc8df57f)
+
+## Behave et PyCharm
+Il s'agit ici d'implémenter nos classes de BlueJ en Python, pour cela nous allons utiliser l'IDE PyCharm.
+
+![image](https://github.com/user-attachments/assets/c46f9d41-9507-4d6f-8235-459320bf5810)
+
+![image](https://github.com/user-attachments/assets/ff07760c-ff02-42fa-bcf9-076cef9707f4)
+
+
+
 
