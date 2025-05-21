@@ -1,37 +1,21 @@
-Feature : US_0002 Calcul position à un instant donné
+Feature: US_0002 Calcul position à un instant donné
 En tant que financier
 Je veux après avoir enregistré les différentes obligations avec leurs maturités, taux et nominals respectifs. Je souhaite calculer ma position au cours du temps.
 Ceci afin de développer mes perspectives d'investissements.
 
-Scenario outline : Création d'un portefeuille avec plusieurs obligations
-Given des obligations <obligation1> et <obligation2>
-When l'utilisateur la valide
-Then le système enregistre le portefeuille <portefeuille1> avec <obligation1> et <obligation2>
+  Scenario Outline: Création d'un portefeuille avec plusieurs obligations
+    Given des obligations avec <nom>, <maturite>, <taux>, <nominal>
+      | nom   | maturite  | taux  | nominal  |
+      | SG    | 8         | 0.003 | 1500     |
+      | BNP   | 7         | 0.005 | 2000     |
 
-Examples: 
-| obligation1  | 
-| obligationSG | 
-| obligation2  | 
-| obligationBNP| 
+    When l'utilisateur la valide
+    Then le système enregistre deux obligations <obligation1> <obligation2> dans le portefeuille <portefeuille1>
 
-| portefeuille1  | obligation1 | obligation2  | 
-| myportefeuille | obligationSG| obligationBNP|
+    Examples:
 
-
-
-Scenario outline : Calcul de la position à un certain instant 
-Given un portefeuille <portefeuille1> et une date <date1>
-When l'utilisateur la valide
-Then la position <position> en cette date est calculée
-
-
-
-
-Examples: 
-| portefeuille1  | date1 | position |
-| myportefeuille | 3     |          |
-
-
+    | portefeuille1  | obligation1 | obligation2  |
+    | myportefeuille | obligationSG| obligationBNP|
 
 
 
